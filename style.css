@@ -19,14 +19,13 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
-
-.content {
-    min-height: 60px;
-    background: linear-gradient(
-        90deg,
-        rgb(35, 22, 223)0%,
-        rgb(255, 29, 104) 70%
-    );
+        .content {
+    width: 100%;
+    aspect-ratio: 100 / 5; /* Ajusta según la imagen */
+    background-image: url(imge/franja1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 
