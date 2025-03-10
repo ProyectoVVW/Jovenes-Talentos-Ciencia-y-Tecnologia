@@ -44,11 +44,6 @@ body {
     height: 61px; 
 }
 
-.menu .navbar ul li {
-    position: relative;
-    float: left;
-}
-
 .menu .navbar ul li a {
     font-size: 18px;
     padding: 20px;
@@ -58,7 +53,7 @@ body {
 }
 
 .menu .navbar ul li a:hover {
-    color: rgb(87, 80, 80);
+    color: rgb(255, 255, 255);
 }
 
 #menu {
@@ -69,7 +64,6 @@ body {
     width: 25px;
     color: rgb(255, 255, 255);
 }
-
 .menu label {
     cursor: pointer;
     display: none;
